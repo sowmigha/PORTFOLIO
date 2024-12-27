@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: linear-gradient(to bottom, #fff702a5, #000000);
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+            position: relative;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .hero {
+            position: relative;
+        }
+        
+        .hero h1 {
+            margin: 0;
+            font-size: 3em;
+            z-index: 1;
+            position: relative;
+        }
+        
+        .hero p {
+            font-size: 1.5em;
+            z-index: 1;
+            position: relative;
+        }
+        
+        .hero img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.5;
+        }
+        
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+        
+        .project {
+            margin: 20px 0;
+        }
+        
+        .project img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        
+        form button {
+            background-color: #4facfe;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        
+        form button:hover {
+            background-color: #00f2fe;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <img src="https://thumbs.dreamstime.com/b/portfolio-gold-text-black-background-d-rendered-royalty-free-stock-picture-image-can-be-used-online-website-banner-87920676.jpg" alt="Banner Image">
+            <h1><b><i>Welcome to My Portfolio</b></i></h1>
+            <p>Showcasing my work and achievements</p>
+        </div>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="C:\Users\SWETHA P\OneDrive\Pictures\Screenshots\Screenshot 2024-12-22 143032.png" alt="Profile Image" style="border-radius: 50%; width: 150px; height: 150px;">
+        <p>Greetings!!<br>&nbsp;from a dedicated engineer residinf in the picturisque town of Pollachi, Tamil Nadu. My expertise lies in Machine Learning, where I blend creativity with technical prowess to deliver outstanding results. I hold a B.E. CSE(AIML) degree from Sri Eshwar College, which has fueled my passion for Machine learning.
+
+            Throughout my career, I've had the pleasure of working on various projects that have challenged and enriched my skills. I thrive on learning new technologies and continuously strive to stay ahead in the ever-evolving landscape of Software Industry.
+            
+            Outside of my professional life, I'm an avid my performing art, and I love exploring new ideas and trends. Whether it's diving into a captivating book, experimenting with new recipes, or simply enjoying nature, I believe in living a balanced and fulfilling life.
+            Browse through my portfolio to see some of my proudest works. Lets connect and create something extraordinary together!.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="C:\Users\SWETHA P\OneDrive\Pictures\Screenshots\Screenshot 2024-12-22 144322.png" alt="Project Image 1">
+            <h3><b>1.INTELLIGENCE VIRTUAL ASSISTANT</b></h3>
+            <p><br> In this project, I developed an Intelligent Virtual Assistant (IVA) capable of understanding and responding to user queries in natural language. The IVA leverages advanced Natural Language Processing (NLP) techniques and machine learning algorithms to provide accurate and contextual responses, making it an effective tool for customer support and personal assistance.<br><br>
+
+Key Features:<br>
+
+<b>Natural Language Understanding (NLU):</b> Implemented an NLU model that processes and interprets user inputs to understand the intent and entities mentioned in the queries.<br>
+
+<b>Context Management: </b>Designed a context management system to maintain the context of ongoing conversations, allowing the IVA to handle multi-turn dialogues seamlessly.<br>
+
+<b>Response Generation:</b> Integrated a response generation module that formulates coherent and relevant replies based on the interpreted user intent and context.<br>
+
+<B>Machine Learning Models:</B> Utilized supervised learning techniques to train classification models for intent detection and entity recognition.<br>
+
+<b>Integration with APIs:</b> Enabled the IVA to fetch real-time information from various APIs, such as weather updates, news, and calendar events.<br>
+
+<b>User Personalization:</b> Developed user profile management features to personalize responses based
+
+</p>
+        </div>
+        <div class="project">
+            <img src="path/to/your/project-image2.jpg" alt="Project Image 2">
+            <h3>Facial Recognition System Using AI/ML</h3>
+            <p><ul> <li><strong>Data Collection and Preprocessing:</strong> Collected a large dataset of facial images from diverse sources.
+                <em>Preprocessed the images to standardize resolution and remove noise</em>, ensuring high-quality input for the model.</li> 
+                <li><strong>Model Training:</strong> 
+                    Designed and trained a deep learning model using CNNs. The model architecture included multiple convolutional layers to extract facial features, followed by fully connected layers for classification.</li> 
+                <li><strong>Face Detection:</strong> Integrated a face detection algorithm to identify and locate faces within images and video frames before passing them to the recognition model.</li> 
+                <li><strong>Real-Time Recognition:</strong> Implemented the system to work in real-time, enabling it to process video feeds and instantly recognize individuals with high accuracy.</li> 
+                <li><strong>Performance Evaluation:</strong> Evaluated the model’s performance using metrics such as <em>accuracy, precision, recall, and F1-score</em>. 
+                    Achieved high accuracy and robust performance across various lighting conditions and backgrounds.</li>
+                <li><strong>Deployment:</strong> Deployed the system using a web-based interface, allowing users to upload images or use their webcam for real-time facial recognition.</li>
+            </ul> <p>The facial recognition system demonstrated significant potential for applications in <strong>security, access control, and user authentication</strong>, providing a reliable and efficient solution for identity verification.</p>
+        </p>
+        </div>
+        <!-- Add more project sections as needed -->
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for collaborations or inquiries.</p>
+        <form action="C:\Users\SWETHA P\Downloads\contact.php.txt" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 ADHIRA A. All rights reserved.</p>
+    </footer>
+    <script>
+        // Add interactivity as needed
+        console.log("Portfolio site loaded successfully");
+    </script>
+</body>
+</html>

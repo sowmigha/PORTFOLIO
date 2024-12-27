@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="C:\Users\SOWMIGHA\Desktop\PORTFOLIO\potfoli.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        //<div class="hero">
+            <img src="https://thumbs.dreamstime.com/b/portfolio-gold-text-black-background-d-rendered-royalty-free-stock-picture-image-can-be-used-online-website-banner-87920676.jpg" alt="Banner Image">
+            <h1><b><i>Welcome to My Portfolio</b></i></h1>
+            <p>~ Embaracing myself ~</p>
+        </div>//
+    </header>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <p class="aboutp">Greetings!!<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;from a dedicated engineer residinf in the picturisque town of Pollachi, Tamil Nadu. My expertise lies in Machine Learning, where I blend creativity with technical prowess to deliver outstanding results. I hold a B.E. CSE(AIML) degree from Sri Eshwar College, which has fueled my passion for Machine learning.
+
+            Throughout my career, I've had the pleasure of working on various projects that have challenged and enriched my skills. I thrive on learning new technologies and continuously strive to stay ahead in the ever-evolving landscape of Software Industry.
+            
+            Outside of my professional life, I'm an avid my performing art, and I love exploring new ideas and trends. Whether it's diving into a captivating book, experimenting with new recipes, or simply enjoying nature, I believe in living a balanced and fulfilling life.
+            Browse through my portfolio to see some of my proudest works. Lets connect and create something extraordinary together!.</p>
+    </section>
+
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="project" onclick="showDetails('project1')">
+            <h2 class="projecth">1.INTELLIGENCE VIRTUAL ASSISTANT</h2>
+            <img src="https://th.bing.com/th/id/OIP.mzA7LgqXUTJMBrXXclxf5wHaEK?w=300&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Intelligence Virtual Assistence" class="projectimg">
+            <p class="projectp">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this project, I developed an Intelligent Virtual Assistant (IVA) capable of understanding and responding to user queries in natural language. The IVA leverages advanced Natural Language Processing (NLP) techniques and machine learning algorithms to provide accurate and contextual responses, making it an effective tool for customer support and personal assistance.<br><br><br>Click for a brief<br><br><br></p>
+
+                <!--Key Features:<br>                
+                <b>Natural Language Understanding (NLU):</b> Implemented an NLU model that processes and interprets user inputs to understand the intent and entities mentioned in the queries.<br>
+                                <b>Context Management: </b>Designed a context management system to maintain the context of ongoing conversations, allowing the IVA to handle multi-turn dialogues seamlessly.<br>
+                                <b>Response Generation:</b> Integrated a response generation module that formulates coherent and relevant replies based on the interpreted user intent and context.<br>
+                                <B>Machine Learning Models:</B> Utilized supervised learning techniques to train classification models for intent detection and entity recognition.<br>
+                                <b>Integration with APIs:</b> Enabled the IVA to fetch real-time information from various APIs, such as weather updates, news, and calendar events.<br>
+                                <b>User Personalization:</b> Developed user profile management features to personalize responses based
+                </p>-->
+        </div>
+        <div class="project" onclick="showDetails('project2')">
+            <h2 class="projecth">2. FACIAL RECOGNITION SYSTEM USING AI/ML</h2>
+            <img src="https://img.freepik.com/premium-photo/facial-recognition-system-man-with-digital-biometric-grid-personal-data-grey-background_144356-52179.jpg" alt="Facial Recognition System using AIML" class="projectimg">
+            <!--<p><ul> <li><strong>Data Collection and Preprocessing:</strong> Collected a large dataset of facial images from diverse sources.
+                <em>Preprocessed the images to standardize resolution and remove noise</em>, ensuring high-quality input for the model.</li> 
+                <li><strong>Model Training:</strong> 
+                    Designed and trained a deep learning model using CNNs. The model architecture included multiple convolutional layers to extract facial features, followed by fully connected layers for classification.</li> 
+                <li><strong>Face Detection:</strong> Integrated a face detection algorithm to identify and locate faces within images and video frames before passing them to the recognition model.</li> 
+                <li><strong>Real-Time Recognition:</strong> Implemented the system to work in real-time, enabling it to process video feeds and instantly recognize individuals with high accuracy.</li> 
+                <li><strong>Performance Evaluation:</strong> Evaluated the model’s performance using metrics such as <em>accuracy, precision, recall, and F1-score</em>. 
+                    Achieved high accuracy and robust performance across various lighting conditions and backgrounds.</li>
+                <li><strong>Deployment:</strong> Deployed the system using a web-based interface, allowing users to upload images or use their webcam for real-time facial recognition.</li>
+            </ul>--> <p class="projectp">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The facial recognition system demonstrated significant potential for applications in <strong>security, access control, and user authentication</strong>, providing a reliable and efficient solution for identity verification.<br><br><br>Click for a brief<br><br><br></p>
+       <!-- </p>-->
+        </div>
+        <div class="project" onclick="showDetails('project3')">
+            <h2 class="projecth">3. HANDWRITTEN DIGITAL RECOGNITION</h2>
+            //<img src="data:image/jpeg;base64,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" alt="Intelligence Virtual Assistence" class="projectimg">
+            <p class="projectp"><!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I developed an innovative Handwritten Digit Recognition system that effectively identifies and classifies handwritten digits from images. This project utilizes the power of Convolutional Neural Networks (CNNs) and was trained on the MNIST dataset, comprising 60,000 training images and 10,000 test images.
+                <br>Key Features:<br>
+                               <br>Data Preprocessing: Enhanced input data quality through normalization and noise reduction techniques.
+                                <br>Model Architecture: Created an optimized CNN model with multiple convolutional and pooling layers to accurately extract features from handwritten digits.
+                                <br>Training and Validation: Implemented data augmentation and dropout methods to prevent overfitting, achieving impressive accuracy on validation sets.
+                                <br>Performance Evaluation: Measured model performance using metrics such as accuracy, precision, recall, and F1-score.
+                                <br>Deployment: Built a user-friendly interface that allows users to upload images of handwritten digits and receive real-time predictions.
+                                <br>Technologies Used:<br>
+                            <ul>
+                                <li>Python</li>
+                                <li>TensorFlow/Keras</li>
+                                <li>OpenCV</li>
+                                <li>NumPy</li>
+                                <li>Matplotlib</li>
+                            </ul>-->
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project sharpened my deep learning and image processing skills, offering valuable insights into deploying machine learning models in practical applications.<br><br><br>Click for a brief<br><br><br></p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p id="modalText"></p>
+        </div>
+    </div>
+
+    <script src="C:\Users\SOWMIGHA\Desktop\PORTFOLIO\portfo.js"></script>
+</body>
+</html>
