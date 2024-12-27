@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+    background-color: #333;
 }
 
 header {
@@ -11,6 +12,7 @@ header {
     color: white;
     padding: 10px 0;
     text-align: center;
+    height: 600px;
 }
 
 nav ul {
@@ -29,22 +31,50 @@ nav ul li a {
     text-decoration: none;
 }
 
+#one{
+    height: 50px;
+    padding: 0;
+    margin-left: 150px;
+}
+#two{
+    height: 60px;
+    padding: 0;
+    background-color: #333;
+}
+
+.nav2{
+    margin-left: 800px;
+    color:#333;
+}
+
+.aboutme{
+    font-size: xx-large;
+}
+.profileimg{
+    height: 520px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border-radius: 400px;
+
+}
+
 .aboutp{
-    margin-left: 30px;
+    margin-left: 500px;
     margin-right: 30px;
     text-align: justify;
 }
 
 section {
-    padding: 20px;
+    padding: 50px;
     background-color: #fff;
     margin: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+
 .project {
-    margin-bottom: 10px;
+    margin-bottom: 1px;
     padding: 10px;
     background-color: #e0e0e0;
     border-radius: 5px;
@@ -55,7 +85,7 @@ section {
     margin-left: 30px;
     margin-right: 30px;
     text-align: justify;
-    text-align: center;
+    text-align: left;
 }
 
 .projecth{
@@ -78,6 +108,7 @@ section {
     background-color: rgba(0, 0, 0, 0.5);
     justify-content: center;
     align-items: center;
+    
 }
 
 .modal-content {
@@ -86,6 +117,7 @@ section {
     border-radius: 5px;
     width: 80%;
     max-width: 500px;
+    
 }
 
 .close {
